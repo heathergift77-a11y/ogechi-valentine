@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For Ogechi Blessing ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #0f0f0f, #3b0a45);
+            font-family: 'Georgia', serif;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 60px 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #ffc2d1;
+        }
+
+        img {
+            width: 260px;
+            border-radius: 20px;
+            margin: 25px 0;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #f5f5f5;
+        }
+
+        .question {
+            margin-top: 35px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff8fab;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            background-color: #ff4d6d;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff1e4d;
+        }
+
+        iframe {
+            margin-top: 30px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>For Ogechi Blessing ❤️</h1>
+
+        <img src="ogechi.jpg" alt="Ogechi Blessing">
+
+        <p>
+            From the moment we connected, I felt something real.
+            Not temporary. Not random. But intentional and meaningful.
+        </p>
+
+        <p>
+            You bring calm to my chaos and warmth to my heart.
+            I value who you are and what we share.
+        </p>
+
+        <p>
+            Ogechi Blessing, you matter to me more than you know.
+        </p>
+
+        <div class="question">
+            Will you be my Valentine?
+        </div>
+
+        <button onclick="showMessage()">Yes ❤️</button>
+
+        <!-- Now We're Strangers - Central Cee -->
+        <iframe width="300" height="170"
+            src="https://www.youtube.com/embed/CBuIINOwNTw"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("You just made me the happiest person alive ❤️");
+        }
+    </script>
+
+</body>
+</html>
